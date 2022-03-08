@@ -1,0 +1,159 @@
+{
+  "experiences": [
+    {
+      "name": "Embedded Systems Capstone",
+      "link": "cse475",
+      "github": "https://github.com/noahstaveley/home-health",
+      "location": "UW",
+      "weight": 1,
+      "tags": [
+        "EE 475",
+        "CSE 475"
+      ],
+      "date": "Winter 2022",
+      "short": "CSE 475"
+    },
+    {
+      "name": "Operating Systems",
+      "link": "cse451",
+      "location": "UW",
+      "weight": 2,
+      "tags": [
+        "CSE 451"
+      ],
+      "photos": [
+        "/static/experiences/cse451/cse451.jpeg"
+      ],
+      "date": "Winter 2022",
+      "short": "CSE 451"
+    },
+    {
+      "name": "Intro to Embedded Systems",
+      "link": "cse474",
+      "location": "UW",
+      "weight": 3,
+      "tags": [
+        "EE 474",
+        "CSE 474"
+      ],
+      "photos": [
+        "/static/experiences/cse474/cse474.jpeg"
+      ],
+      "date": "Autumn 2021",
+      "short": "CSE 474"
+    },
+    {
+      "name": "Computer Networks",
+      "link": "cse461",
+      "location": "UW",
+      "weight": 4,
+      "tags": [
+        "CSE 461"
+      ],
+      "photos": [
+        "/static/experiences/cse461/cse461.jpeg"
+      ],
+      "date": "Autumn 2021",
+      "short": "CSE 461"
+    },
+    {
+      "name": "Computer Security",
+      "link": "cse484",
+      "location": "UW",
+      "weight": 5,
+      "tags": [
+        "CSE 484"
+      ],
+      "photos": [
+        "/static/experiences/cse484/cse484.jpeg"
+      ],
+      "date": "Autumn 2021",
+      "short": "CSE 484"
+    },
+    {
+      "name": "Systems Programming",
+      "link": "cse333",
+      "location": "UW",
+      "weight": 6,
+      "tags": [
+        "CSE 333"
+       
+      ],
+      "photos": [
+        "/static/experiences/cse333/cse333.jpeg"
+      ],
+      "date": "Spring 2021",
+      "short": "CSE 333"
+    },
+    {
+      "name": "Digital Design",
+      "link": "cse369",
+      "location": "UW",
+      "weight": 7,
+      "tags": [
+        "CSE 369"      
+      ],
+      "photos": [
+        "/static/experiences/cse369/cse369.jpeg"
+      ],
+      "date": "Spring 2021",
+      "short": "CSE 369"
+    },
+    {
+      "name": "Data Structures and Parallelism",
+      "link": "cse332",
+      "location": "UW",
+      "weight": 8,
+      "tags": [
+        "CSE 332"
+      ],
+      "photos": [
+        "/static/experiences/cse332/cse332.jpeg"
+      ],
+      "date": "Winter 2021",
+      "short": "CSE 332"
+    },
+    {
+      "name": "Foundations of Computing II",
+      "link": "cse312",
+      "location": "UW",
+      "weight": 8,
+      "tags": [
+        "CSE 312"
+      ],
+      "photos": [
+        "/static/experiences/cse312/cse312.jpeg"
+      ],
+      "date": "Winter 2021",
+      "short": "CSE 312"
+    },
+    {
+      "name": "Foundations of Computing",
+      "link": "cse311",
+      "location": "UW",
+      "weight": 9,
+      "tags": [
+        "CSE 311"
+      ],
+      "photos": [
+        "/static/experiences/cse311/cse311.jpeg"
+      ],
+      "date": "Fall 2020",
+      "short": "CSE 312"
+    },
+    {
+      "name": "The Hardware/Software Interface",
+      "link": "cse351",
+      "location": "UW",
+      "weight": 10,
+      "tags": [
+        "CSE 351"
+      ],
+      "photos": [
+        "/static/experiences/cse351/cse351.jpeg"
+      ],
+      "date": "Fall 2020",
+      "short": "CSE 351"
+    }
+  ]
+}
