@@ -16,7 +16,7 @@
         "Flask"
       ],
       "photos": [
-        "/static/projects/home-health/incomplete.jpg"
+        "/static/projects/home-health/IOT_char.JPG"
       ]
     },
  
@@ -40,10 +40,13 @@
     },
    
     {
-      "name": "Client Server Communication",
+      "name": "Networking Projects",
       "link": "sockets-server",
       "date": "Autumn 2021",
-      "short": "Implemented a multi-threaded Web Server as a part of my Networks course",
+      "short": "",
+      "shorter": "Project 1 - Client-Server Communication (UDP and TCP)",
+      "shorty": "Project 2 - Emulated simple networks with Mininet" ,
+      "shortest": "Project 3 - Bufferbloat Phenonmenon (TCP Reno and TCP BBR).",
       "weight": 6,
       "status": "complete",
       "tags": [
@@ -57,7 +60,7 @@
         "Python"
       ],
       "photos": [
-        "/static/projects/sockets-server/network.jpg"
+        "/static/projects/sockets-server/network.jpg", "/static/projects/sockets-server/figure1.png"
       ]
     },
     {
@@ -87,9 +90,8 @@
     {
       "name": "Line Following Robot",
       "link": "robots",
-      "github": "https://github.com/noahstaveley/sockets-server",
       "date": "Spring 2020",
-      "short": "Researched, designed and programmed a line following robot",
+      "short": "Researched, designed and programmed a line following robot using Infrared Sensors",
       "weight": 1,
       "status": "complete",
       "tags": [
