@@ -3,7 +3,7 @@
 
 This is the repository for my portfolio website. Development is ongoing. 
 
-TODO: add some photos. Fix resume download link
+TODO: add some photos. add resume download link
 
 
 # Technology
