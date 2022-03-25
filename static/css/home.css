@@ -1,6 +1,7 @@
 body {
   height:100vh;
   font-family: 'Open Sans', sans-serif;
+  background-image: url("twitter.svg");
   background-color: rgb(121, 155, 187);
 }
 
