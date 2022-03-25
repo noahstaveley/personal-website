@@ -13,7 +13,8 @@
         "C", 
         "Web",
         "Python",
-        "Flask"
+        "Flask", 
+        "embedded system"
       ],
       "photos": [
         "/static/projects/home-health/IOT_char.JPG"

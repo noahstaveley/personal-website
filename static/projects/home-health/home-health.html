@@ -1,22 +1,59 @@
 
 <div>
-    Project Nearly Complete <br> <br>
 
-    <span> I worked on this project with a group of 4 other students for our Embedded Systems Capstone course. <br><br>
-        I was the software development manager for this project. I designed and developed a user interface where users can securely login to their account and view their test results. 
-        <br><br>I established communication between the backend of our Flask website and the database where we store sensor data. 
-        <br><br>I connected sensor data to user accounts by establishing a SQLite database of users, and linking packets of sensor data to users in the database. </span>
-    Developed with: <br> 
-
-    <ul>
-        <li>Python Flask</li>
-        <li>Jinja2 and HTML, CSS, JS</li>
-        <li>Hosted on Heroku</li>
-    </ul>
-
-
+    <p> Health information is critical to a person’s wellbeing and overall quality of life. With the pandemic still ongoing, and medical issues 
+        still a large part of everyone's lives, ways to get more information about one’s health to themselves and their doctor is a great benefit. 
+        While anyone will be able to use and benefit from the Home Health Station, those with pre-existing conditions would benefit most
+         from the more consistent monitoring of their health from the safety of their home.</p>
+    <p>Placed in an easily accessible, elevated to waist height position in one’s home, the station would operate in either an off state, 
+        if the user wishes, or a low power state that the user would be able to awake it from with a push of a button.
+         When that button is pressed, the user would be able to choose either of the two tests our station provides at the time, 
+         a heart rate sensor and an EMG. After choosing the test they would like to take, and placing themselves in the proper position to 
+         take the test, each test would take about 15 seconds to get a number. During that time, the user would be able to see what test they 
+         are taking on our LCD display. After the test has been completed, the user would be able to choose whether or not to send that data 
+         to our database and website.The data is sent as a message. A message includes the fields (columns) and the corresponding data values 
+         to the respective fields. Also a bulk update of data (fields with multiple data values) can also be sent in one message. 
+         After the data is retrieved from the database, the users could see the test record after login on to our website. 
+         The users could also delete each test result or all the tests at once.
+    </p>
+    <p>The purpose of our website is to create an interface where users can securely view and manage their test results. 
+        Our website has register and login functionality, giving users secure access to their personal account. 
+        When you visit our website you will see a homepage that greets you as a guest user. 
+        It will prompt you to either sign up or login to your account. 
+        We also have an About page set up, to gather all information about this project. 
+        This is where you will find progress updates, a link to our software repository, information about the team, 
+        and a link to send an email to the team. </p>
+    <p>After users login, they will see a customized home page. 
+        We have some resources displayed on the user home page including various health centers in the Seattle area. 
+        Users can view their profile page where they can edit their profile information such as username, email, DOB etc. 
+        This is also where users can view their test results. By clicking the “New Pulse Test“ button, user’s can request the most recent 
+        Pulse test result associated with their account. If there is a new test result ready in the ThingSpeak database,
+         a test result summary will be printed to the user profile page every time this button is clicked.
+          If there is no new test result data, a message is printed to inform the user. Each test summary contains a delete me button 
+          and a button to view the entire test result. When users expand the test result they will see their pulse data displayed in either 
+          green, yellow or red. Users can delete all of their test results at once from the profile page. 
+          We also provide a page where users can view visualizations of their Pulse test results. 
+          EMG test results and visualizations are displayed on a separate page. 
+    </p>
 <br>
 <br>
+<span> I worked on this project with a group of 5 other students for our Embedded Systems Capstone course. <br><br>
+    I was the software development manager for this project. I designed and developed a user interface where users can securely login to their account and view their test results. 
+    <br><br>I established communication between the backend of our Flask website and the database where we store sensor data. 
+    <br><br>I connected sensor data to user accounts by establishing a SQLite database of users, and linking packets of sensor data to users in the database. </span>
+Developed with: <br> 
+
+<ul>
+    <li>Python Flask</li>
+    <li>Jinja2 and HTML, CSS, JS</li>
+    <li>Hosted on Heroku</li>
+</ul>
+<p> The backend of our website grabs sensor data from our ThingSpeak database and links that data to user accounts in our SQLite database. 
+    Processed sensor data is stored in our database of users in a packets table. 
+    A packet represents the results of a single test the user has taken.
+     Every packet is linked to a user in our database through the user’s unique id. 
+     In order to manage packets, each packet also contains a unique identifier. 
+</p>
     <br>
     <br>
     <br>
