@@ -2,8 +2,8 @@
   "projects": [
     {
       "name": "IOT Device",
-      "github": "https://github.com/noahstaveley/home-health",
       "link": "home-health",
+      "github": "https://github.com/noahstaveley/home-health",
       "date": "Winter 2022",
       "short": "This IOT device conducts a series of health tests including a Pulse and EMG test.",
       "status": "in progress",
