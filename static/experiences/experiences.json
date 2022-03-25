@@ -154,6 +154,39 @@
       ],
       "date": "Fall 2020",
       "short": "CSE 351"
+    }, 
+    {
+      "name": "Intro to Data Management",
+      "link": "cse344",
+      "location": "UW",
+      "weight": 11,
+      "tags": [
+        "CSE 344"
+      ],
+      "date": "Spring 2022",
+      "short": "CSE 344"
+    }, 
+    {
+      "name": "Web Browser Engineering",
+      "link": "cse490",
+      "location": "UW",
+      "weight": 12,
+      "tags": [
+        "CSE 490"
+      ],
+      "date": "Spring 2022",
+      "short": "CSE 490"
+    }, 
+    {
+      "name": "Design of Digital Circuits and Systems",
+      "link": "cse371",
+      "location": "UW",
+      "weight": 11,
+      "tags": [
+        "CSE 371"
+      ],
+      "date": "Spring 2022",
+      "short": "CSE 371"
     }
   ]
 }
