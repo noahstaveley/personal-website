@@ -11,7 +11,76 @@
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
 <span>Implemented system calls and functionallity for a primitive operating system designed to mimic early UNIX systems. </span>
 
-<span>More information about this project will be here soon! <br>In the mean time, please reach out to learn more. I will send code and documentation upon request. </span>
+<span> <b>Lab 1: Interrupts and System Calls</b></span>
+<p> The goal of this lab is to implement an interface for users to interact with persistent
+    media or with other I/O devices, without having to distinguish between them.</p>
+    <span> <b> Major Parts</b> </span>
+<p> File Interface: Provide an abstraction for the user that doesn't depend on the type of
+    "file". In user space, this will allow for seamless switching of "file" without large
+    changes in the code (ex: Reading input from a file vs reading from stdin, the method
+    for attaining bytes will be the same).</p>
+<p> System Calls: The system call interface provides a barrier for the kernel to validate
+    user program input. This way, we can keep the I/O device state consistent. No user
+    program can directly affect the state of the kernel's structure. Furthermore, when we are
+    in the kernel code, we don't have to go through the syscall interface, which cuts down
+    superfluous error checking for trusted code.</p>
+<br>
+
+<span> <b> Lab 2: Multiprocessing </b></span>
+<p> The goal of this lab is to add the functionality for multiprocessing to xk.</p>
+
+<span> <b> Major Parts</b> </span>
+
+<span> Synchronization issues: Modify Lab 1 code to support concurrent system calls. Use Locks to protect all critical sections of code. </span>
+<span>Fork: Create a new process by duplicating the calling process. </span>
+<span>Wait: Sleep until a child process terminates, then return that child's PID. </span>
+<span>Exit: Halts program and sets state to have its resources reclaimed. </span>
+<span>Exec: Replaces the process' state by executing the given program with the given arguments. </span>
+<span>Pipes: Creates a pipe and two open file descriptors to denote the read and write ends of the pipe.
+arg0[0] points to the write file descripter and arg0[1] points to the read file descriptor. </span>
+<br>
+
+<span> <b>Lab 3: Address Space Management</b></span>
+<p> The goal of this lab is to implement address space management.</p>
+<span> <b> Major Parts</b> </span>
+
+<p>Sbrk: Sbrk allocates more memory for a process at runtime. If a user application wants to increase it’s heap size by n bytes, it calls sbrk(n). Sbrk(n) will return the old heap size.
+</p>
+<p>Run shell commands: After xk boots, load the shell. The shell can run commands cat, echo, rep, ls, wc, and |. </p>
+<p>Grow user stack on-demand: In Lab 2’s implementation of exec, the user stack size is fixed and allocated before the user application starts. Now we will change this to only allocate memory that is needed at run time. The user process will start with nothing more than an initial page to store application arguments. Whenever a user application needs to execute an instruction that reads or writes to the user stack, we can grow the stack on-demand. </p>
+
+<p>Copy-on-Write Fork: Optimize fork’s performance by implementing a copy-on-write mechanism. Currently, fork will copy every page of user memory from the parent process to the child process. This can be expensive, and all of this work is thrown away when the child process calls exec. We will reduce the cost of fork by allowing multiple processes to share the same physical memory, while still behaving as if the memory was copied.
+The page table of both the parent and child processes will be read-only after fork() is called. If either process tries to write to memory, a page fault will occur. This allows the kernel to make a copy of the memory page before resuming execution.
+</p>
+<br>
+<span><b> Lab 4: File System</b></span>
+<p> The goal of this lab is to add functionality to the file system. 
+    In previous labs files were read only. Now files will be able to be created, written to and extended. 
+    These operations will likely involve updating multiple disk blocks so they must be crash-safe.</p>
+<span> <b> Major Parts</b> </span>
+
+<p>Disk Layout:
+
+<br>
+Write to a File - Change the implementation of the open system call to support O_RDWR for read/write access to a file.
+<br>
+
+Append to a File - Extend the size of a file by writing beyond the current end of the file.
+Change the disk layout to enable files to be extended from their initial size.
+Add fields to the inode struct to support multiple extents.
+<br>
+Create Files - Support creation of files from the root directory.
+<br>
+
+Delete Files - Support deleting files from the root directory with the unlink system call.
+</p>
+
+<p>Synchronization in Inode Layer: Ensure the file write system supports multiprocessing.
+</p>
+<p>Crash-safe File System: Add journaling to ensure crash saftey.</p>
+<br>
+
+<span>Please email me to learn more about this project. I will send code and documentation upon request. </span>
 
 </head>
 </html>
