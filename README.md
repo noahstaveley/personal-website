@@ -11,5 +11,5 @@ TODO: add some photos. add resume download link
 Developed using Python Flask, HTML, CSS and Jinja2.
 Hosted using Heroku 
 
-https://flask-nosum.herokuapp.com/ 
+https://nosum.herokuapp.com/ 
 
