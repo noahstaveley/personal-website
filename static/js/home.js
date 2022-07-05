@@ -7,8 +7,8 @@ $(function() {
         "><span class='caret'>$</span> CSE areas of interest: backend development, embedded systems <br/> ^100" +
         "><span class='caret'>$</span> languages: Java, Python, C, C++, bash, SystemVerilog<br/>" +
         "><span class='caret'>$</span> hobbies: skateboarding, snowboarding, music, dog training, gardening, greenhouse design and construction.<br/> ^300" +
-        "><span class='caret'>$</span> <a href= 'mailto:noahstaveley@gmail.com?Subject=Hello%20-from-website'> send an email <br/>" +
-        "><span class='caret'>$</span> Do you want to use your coding skills to fight for trans people? Please reach out, I'm looking for like minded coders to start an org.' <br/>"
+        "><span class='caret'>$</span> <a href= 'mailto:noahstaveley@gmail.com?Subject=Hello%20-from-website'</a> send an email <br/>" +
+        "><span class='caret'>$</span> Do you want to use your coding skills to fight for trans people? Please reach out, I want to start an org but this is nothing more than an idea at this point.' <br/>"
 
         
       ],
