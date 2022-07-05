@@ -4,10 +4,11 @@ $(function() {
       strings: [
         "stat Noah<br/>" + 
         "><span class='caret'>$</span> Bachelors in Computer Engineering from <a href='https://www.cs.washington.edu/'>the Allen School</a> <br/> ^100"+
-        "><span class='caret'>$</span> skills: backend development, embedded systems <br/> ^100" +
+        "><span class='caret'>$</span> CSE areas of interest: backend development, embedded systems <br/> ^100" +
         "><span class='caret'>$</span> languages: Java, Python, C, C++, bash, SystemVerilog<br/>" +
         "><span class='caret'>$</span> hobbies: skateboarding, snowboarding, music, dog training, gardening, greenhouse design and construction.<br/> ^300" +
-        "><span class='caret'>$</span> <a href= 'mailto:noahstaveley@gmail.com?Subject=Hello%20-from-website'> send me an email <br/>"
+        "><span class='caret'>$</span> <a href= 'mailto:noahstaveley@gmail.com?Subject=Hello%20-from-website'> send an email <br/>" +
+        "><span class='caret'>$</span> Do you want to use your coding skills to fight for trans people? Please reach out, I'm looking for like minded coders to start an org.' <br/>"
 
         
       ],
