@@ -7,9 +7,8 @@ $(function() {
         "><span class='caret'>$</span> skills: backend development, embedded systems <br/> ^100" +
         "><span class='caret'>$</span> languages: Java, Python, C, C++, bash, SystemVerilog<br/>" +
         "><span class='caret'>$</span> hobbies: skateboarding, snowboarding, music, dog training, gardening, greenhouse design and construction.<br/> ^300" +
-        "><span class='caret'>$</span> check out:  <br/" +
-        "><span class='caret'>$</span> <a href='https://github.com/noahstaveley/home-health'>Embedded Systems Capstone Project</a><br/" +
-        "><span class='caret'>$</span> <a href='https://github.com/noahstaveley/home-health'> Greenhouse </a><br/" 
+        "><span class='caret'>$</span> <a href= 'mailto:noahstaveley@gmail.com?Subject=Hello%20-from-website'> send me an email <br/>"
+
         
       ],
       showCursor: true,

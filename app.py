@@ -5,8 +5,10 @@ import os
 
 #from feedgen.feed import FeedGenerator
 from flask import Flask, render_template, request, redirect, Response, send_file, abort
+from flask_mail import Mail
 
 app = Flask(__name__)
+mail = Mail(app)
 
 try:
     app.config['GA_TRACKING_ID'] = os.environ['GA_TRACKING_ID']
