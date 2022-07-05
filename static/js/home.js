@@ -3,11 +3,10 @@ $(function() {
   $(".typed").typed({
     strings: [
       "stat Noah<br/>" + 
-      "><span class='caret'>$</span> Computer Engineering Student at <a href='https://www.cs.washington.edu/'>the UW</a> --> graduation: June 2022 - Bachelors in CE <br/> ^100"+
+      "><span class='caret'>$</span> Bachelors in Computer Engineering from <a href='https://www.cs.washington.edu/'>the Allen School</a> <br/> ^100"+
       "><span class='caret'>$</span> skills: backend development, embedded systems <br/> ^100" +
-      "<span </span>firmware development, operating systems<br/> ^100" +
-      "><span class='caret'>$</span> languages: Java, Python, C, C++, bash script, Verilog<br/>" +
-      "><span class='caret'>$</span> hobbies: skateboarding, snowboarding, music<br/> ^300" +
+      "><span class='caret'>$</span> languages: Java, Python, C, C++, bash, SystemVerilog<br/>" +
+      "><span class='caret'>$</span> hobbies: skateboarding, snowboarding, music, dog training<br/> ^300" +
       "><span class='caret'>$</span> check out:  <a href='https://github.com/noahstaveley/home-health'>Embedded Systems Capstone Project</a><br/" 
       
     ],

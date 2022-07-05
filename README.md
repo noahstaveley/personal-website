@@ -1,6 +1,5 @@
 # Portfolio Website
 
-
 This is the repository for my portfolio website. Development is ongoing. 
 
 TODO: add some photos. add resume download link

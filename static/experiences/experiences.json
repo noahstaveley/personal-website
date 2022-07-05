@@ -167,15 +167,15 @@
       "short": "CSE 344"
     }, 
     {
-      "name": "Web Browser Engineering",
-      "link": "cse490",
+      "name": "Programming Languages",
+      "link": "cse341",
       "location": "UW",
       "weight": 12,
       "tags": [
-        "CSE 490"
+        "CSE 341"
       ],
       "date": "Spring 2022",
-      "short": "CSE 490"
+      "short": "CSE 341"
     }, 
     {
       "name": "Design of Digital Circuits and Systems",
