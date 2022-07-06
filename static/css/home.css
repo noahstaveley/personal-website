@@ -141,11 +141,12 @@ ul li a {
   top: 0;
   opacity: 0.3;
 }
+/* about me box */
 #terminal .terminal {
   position: relative;
-  background: #b40909cc;
+  background: #1a1919cc;
   width: 80%;
-  height: 260px;
+  height: 360px;
   border-radius: 8px;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
   margin: auto;
