@@ -260,3 +260,11 @@ ul li a {
   color: #9db0c5e6;
   border-bottom: 1px dotted #b4d1dfe6;
 }
+
+img {
+  background: #03033e;
+  border: 1px solid #9799a7;
+  float: right;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+}
