@@ -41,6 +41,23 @@ def experiences():
     experiences.sort(key=order_projects_by_weight, reverse=True)
     return render_template('experiences.html', projects=experiences, tag=None)
 
+@app.route('/dogs')
+def dogs():
+    dogs = get_static_json("static/dogs/dogs.json")['dogs']
+    dogs.sort(key=order_projects_by_weight, reverse=True)
+    return render_template('dogs.html', projects=dogs, tag=None)
+
+@app.route('/woods')
+def woods():
+    woods = get_static_json("static/woods/woods.json")['woods']
+    woods.sort(key=order_projects_by_weight, reverse=True)
+    return render_template('woods.html', projects=woods, tag=None)
+
+@app.route('/gardens')
+def gardens():
+    gardens = get_static_json("static/gardens/gardens.json")['gardens']
+    gardens.sort(key=order_projects_by_weight, reverse=True)
+    return render_template('gardens.html', projects=gardens, tag=None)
 
 def order_projects_by_weight(projects):
     try:
